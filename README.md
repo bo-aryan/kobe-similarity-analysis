@@ -1,5 +1,3 @@
-# kobe-similarity-analysis
-A data-driven analysis of which current NBA player most closely resembles Kobe Bryant statistically and stylistically.
 # Kobe Similarity Analysis
 # Question
 Which current NBA player is most statistically and stylistically similar to Kobe Bryant?
