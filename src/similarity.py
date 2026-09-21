@@ -7,13 +7,13 @@ def percentage_similarity(reference, candidate):
 
     return max(0, similarity)
 
+if __name__ == "__main__":
+    kobe_height = 78
+    example_player_height = 77
 
-kobe_height = 78
-example_player_height = 77
+    score = percentage_similarity(
+        kobe_height,
+        example_player_height
+    )
 
-score = percentage_similarity(
-    kobe_height,
-    example_player_height
-)
-
-print(round(score, 2))
+    print(round(score, 2))

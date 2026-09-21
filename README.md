@@ -1,5 +1,5 @@
 # Kobe Similarity Analysis
-# Question
+## Question
 Which current NBA player is most statistically and stylistically similar to Kobe Bryant?
 
 I've followed basketball for years, and one thing that has always interested me is how difficult player comparisons actually are.
@@ -8,7 +8,7 @@ Basketball stats can make two players look almost identical on paper while hidin
 
 I want to see whether I can turn that question into a quantitative analysis using Python and publicly available NBA data.
 
-# Initial Idea
+## Initial Idea
 
 Instead of comparing players only through points, rebounds and assists, I want to consider several parts of a player's game:
 
