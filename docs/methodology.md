@@ -4,45 +4,53 @@
 
 Which current NBA player is most statistically and stylistically similar to Kobe Bryant?
 
-## Overall Approach
+## Overall approach
 
 The project uses a category-based similarity model.
 
-The analysis begins with a broad pool of current NBA players who have at least some plausible resemblance to Kobe's playing profile. The pool is then narrowed before the final scoring stage.
-
-Each remaining player is evaluated across 10 categories:
+The current comparison pool contains 70 NBA players. Each player will be compared with Kobe across 10 categories:
 
 1. Stature
-2. Shot selection
+2. Shooting Tendencies
 3. Portability
 4. Passing
-5. Usage & creation
+5. Usage & Creation
 6. Defense
-7. Play style
-8. Athleticism
-9. Shooting ability
-10. Dominance
+7. Athleticism
+8. Dominance
+9. Shooting Ability
+10. Play Style
 
-Within each category, individual metrics are compared with Kobe's corresponding career values.
+The categories are meant to cover both production and playing style instead of relying only on points, rebounds and assists.
 
-Similarity is calculated using percentage deviation:
+## Similarity calculation
+
+For an individual numerical metric, similarity is calculated using percentage deviation:
 
 Similarity = 100 × (1 − |candidate − Kobe| / |Kobe|)
 
-Similarity scores are capped at a minimum of 0.
+Scores are capped at a minimum of 0.
 
-When multiple metrics belong to the same category, their similarity scores are averaged to produce the category score.
+When a category contains multiple metrics, the metric similarity scores are averaged to produce the category score.
 
 The final player score is the equal-weighted average of the 10 category scores.
 
-The player with the highest final score is considered the closest statistical and stylistic match under this model.
+The highest-scoring player is therefore the closest match under this particular model.
 
-## Kobe Reference
+## Kobe reference
 
 Kobe Bryant's full regular-season NBA career is used as the reference profile.
 
-Traditional statistics are calculated from career totals rather than averaging individual season averages.
+For traditional statistics, career values are calculated from career totals rather than averaging individual season averages.
 
-## Important Limitation
+For season-level advanced metrics, the Kobe reference uses a minute-weighted career value.
 
-This model measures similarity according to the selected metrics. It does not prove that two players actually play identically, and the final result can change if different metrics or category weights are used.
+For shooting tendencies, season-level shot-location attempts are weighted by games played before being combined into a career shot profile.
+
+## Data limitations
+
+Not every metric from the reference framework can be reproduced directly from the NBA API.
+
+I will not replace unavailable specialized metrics with made-up values. If a metric cannot be collected consistently, that limitation will be stated and the final implementation will use only data that can actually be supported.
+
+The model measures similarity according to the selected metrics. It does not prove that two players actually play identically, and the result could change if different metrics or category weights were used.
