@@ -2,24 +2,26 @@
 
 Which current NBA player is most similar to Kobe Bryant?
 
-# The problem
+## The problem
 
-Traditional comparisons often focus on basic statistics such as PPG, RPG and APG.
+Traditional comparisons usually focus on basic statistics such as PPG, RPG and APG.
 
 I don't think that is enough.
 
-For example, two players might both average 25 points while getting those points through completely different shot profiles and offensive roles.
+Two players can produce similar numbers while getting there through completely different shot selection, roles and styles of play.
 
 My goal is therefore to measure both:
 
 1. What a player produces
 2. How that production is generated
 
-# Questions I need to answer
+## Questions I started with
 
-- What should "similarity" mathematically mean?
+- What should "similarity" mean mathematically?
 - Should I use career Kobe or prime Kobe?
-- How should players from different eras be compared?
-- Which statistics describe playing style?
-- How should multiple categories be weighted?
+- How can players from different eras be compared?
+- Which statistics actually describe playing style?
+- How should the categories be weighted?
 - Which statistics can be sourced reliably?
+
+The project has since settled on using Kobe's full career as the reference and a 10-category comparison model. The remaining work is to finish the metric collection and test the final scoring system.
