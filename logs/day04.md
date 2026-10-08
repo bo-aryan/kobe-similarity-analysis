@@ -32,6 +32,12 @@ Expand the comparison beyond traditional box-score statistics by collecting adva
 - Pace
 - Player Impact Estimate
 
+## Problems I hit
+
+I first used the wrong parameter name for the advanced NBA API call. The installed version of nba_api expects measure_type_detailed_defense="Advanced", not the parameter name I initially tried.
+
+I also tried pulling specialized metrics directly from CraftedNBA, but the request returned a 403 response. I stopped trying to scrape that page and used NBA API data where comparable information was available instead.
+
 ## Kobe reference
 
 The career reference uses all 20 NBA seasons rather than selecting a specific prime period.
