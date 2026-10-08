@@ -32,6 +32,10 @@ I used `nba_api` to search for Kobe Bryant in the NBA player database, retrieve 
 
 I also saved the result as a CSV so the raw dataset can be reused and checked independently of the API call.
 
+## Problem I hit
+
+When I checked the installed packages in Windows PowerShell, FINDSTR caused a Unicode/encoding issue with the generated requirements output. I switched to PowerShell's Select-String and saved the file using UTF-8.
+
 ## What I still don't know
 
 - Whether the final Kobe reference should use his full career or a defined prime period
