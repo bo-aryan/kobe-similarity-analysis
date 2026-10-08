@@ -40,6 +40,12 @@ Map the ten comparison categories to reproducible metrics and collect the additi
 9. Shooting Ability
 10. Play Style
 
+## Problems I hit
+
+I first tried using the shot endpoint with a player-specific parameter, but it did not accept player_id in the way I expected. The batch produced no usable data, so I switched to the league-wide shot-location endpoint and filtered it down to the 70-player pool.
+
+While building Kobe's career shot profile, I initially tried to use GP from the shot-location data, but that column was not present. I fixed this by merging games played from Kobe's original career dataset before weighting the season-level shot attempts.
+
 ## Main methodological decision
 
 The project will reproduce the structure of the reference methodology while keeping the implementation transparent and reproducible.
