@@ -1,28 +1,38 @@
 # Kobe Similarity Analysis
+
 ## Question
+
 Which current NBA player is most statistically and stylistically similar to Kobe Bryant?
 
-I've followed basketball for years, and one thing that has always interested me is how difficult player comparisons actually are.
+I've followed basketball for years, and player comparisons have always interested me because the box score can make two players look similar while their actual styles are very different.
 
-Basketball stats can make two players look almost identical on paper while hiding how differently they actually play. The 1978 scoring race— George Gervin beating David Thompson by just 0.07 points per game—is one of the examples that made me want to look beyond the box score.
+I want to turn that question into a quantitative analysis using Python and publicly available NBA data.
 
-I want to see whether I can turn that question into a quantitative analysis using Python and publicly available NBA data.
+## What I'm comparing
 
-## Initial Idea
+The model looks at 10 parts of a player's game:
 
-Instead of comparing players only through points, rebounds and assists, I want to consider several parts of a player's game:
-
-- physical profile
-- scoring and shot selection
-- playmaking
-- offensive responsibility
+- stature
+- shooting tendencies
+- portability
+- passing
+- usage and creation
 - defense
-- play style
 - athleticism
+- dominance
 - shooting ability
-- overall impact
+- play style
 
-I haven't finalized the exact statistics or weighting system yet. A major part of this project will be figuring out which metrics are meaningful and which historical data are actually available.
+The idea is to measure both:
+
+1. what a player produces
+2. how that production is generated
+
+## Current approach
+
+Kobe Bryant's full regular-season career is the reference profile. The current comparison pool contains 70 NBA players, using their 2025–26 regular-season data.
+
+The project uses a category-based similarity score. I'm keeping the metrics as simple and reproducible as possible, and documenting limitations instead of filling gaps with estimates.
 
 ## Tools
 
@@ -30,4 +40,16 @@ I haven't finalized the exact statistics or weighting system yet. A major part o
 - pandas
 - Jupyter
 - Git/GitHub
-- NBA statistical databases
+- nba_api
+
+## Repository structure
+
+- data/raw/ — raw API data
+- data/processed/ — cleaned datasets used by the analysis
+- data/manual/ — manually defined inputs such as the candidate pool
+- docs/ — methodology and research notes
+- logs/ — session-by-session project notes
+- notebooks/ — analysis work
+- src/ — reusable Python code
+
+This is a work-in-progress project, so the logs also record decisions and problems I ran into while building it.
