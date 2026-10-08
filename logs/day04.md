@@ -1,4 +1,4 @@
-# Day 4 — Advanced Metrics
+# Day 4 - Advanced Metrics
 
 Date: September 28, 2026
 Time spent: 57 minutes

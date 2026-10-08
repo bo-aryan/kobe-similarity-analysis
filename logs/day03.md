@@ -1,5 +1,8 @@
 ## Day 3 — Kobe Reference and Candidate Pool
 
+Date: September 23, 2026
+Time spent: 68 minutes
+
 This session established the statistical foundation for the similarity analysis.
 
 I used Kobe Bryant's complete NBA career as the initial reference rather than selecting a specific subset of seasons. Career totals were converted into career per-game and shooting-efficiency reference values.
