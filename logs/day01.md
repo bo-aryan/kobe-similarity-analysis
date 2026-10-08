@@ -25,6 +25,10 @@ Even season averages only tell part of that story: two players can produce simil
 
 I experimented with percentage difference as a simple way of measuring similarity between two numerical values.
 
+## Problems / things still open
+
+Nothing major went wrong this session. Most of the work was figuring out what the project should actually measure.
+
 ## What I still don't know
 
 - Whether percentage difference is the best similarity method
