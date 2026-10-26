@@ -1,5 +1,7 @@
 # Kobe Similarity Analysis
 
+The Kobe jersey that hangs above my table always served as a constant reminder of the work one needs to put in to reach greatness. But my curiosity for NBA analytics took me on a journey to find Kobe's modern match.
+
 ## Question
 
 Which current NBA player is most statistically and stylistically similar to Kobe Bryant?
