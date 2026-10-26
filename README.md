@@ -1,6 +1,8 @@
 # Kobe Similarity Analysis
 
 The Kobe jersey that hangs above my table always served as a constant reminder of the work one needs to put in to reach greatness. But my curiosity for NBA analytics took me on a journey to find Kobe's modern match.
+<img width="1064" height="1600" alt="image" src="https://github.com/user-attachments/assets/700be13f-f46d-4794-b62b-1449ddc9bd79" />
+
 
 ## Question
 
