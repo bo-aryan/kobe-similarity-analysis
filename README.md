@@ -38,25 +38,42 @@ The result is not meant to say that Brown is "the next Kobe." It means that, wit
 
 ## Category profiles
 
-Each radar chart shows how closely a player matches Kobe across the 10 model categories.
+Each of the top 5 candidates gets two five-axis radar charts, covering all 10 model categories.
 
-The dashed outer boundary represents Kobe's reference value of 100. The green polygon represents the candidate's category-level similarity.
+- Profile I: Stature · Usage & Creation · Shooting Tendencies · Portability · Passing
+- Profile II: Defense · Athleticism · Dominance · Shooting Ability · Play Style
 
-\<table>
-\<tr>
-\<td>\<img src="assets/radars/jaylen_brown_radar.png" width="420">\</td>
-\<td>\<img src="assets/radars/devin_booker_radar.png" width="420">\</td>
-\</tr>
-\<tr>
-\<td>\<img src="assets/radars/stephen_curry_radar.png" width="420">\</td>
-\<td>\<img src="assets/radars/julius_randle_radar.png" width="420">\</td>
-\</tr>
-\<tr>
-\<td>\<img src="assets/radars/austin_reaves_radar.png" width="420">\</td>
-\<td>\</td>
-\</tr>
-\</table>
+The green polygon shows the player's similarity to Kobe in each category. The gold dashed boundary represents Kobe's reference value of 100.
 
+### #1 Jaylen Brown — 82.82%
+
+| Profile I | Profile II |
+|---|---|
+| ![Jaylen Brown Profile I](assets/radars/jaylen_brown_profile_i.png) | ![Jaylen Brown Profile II](assets/radars/jaylen_brown_profile_ii.png) |
+
+### #2 Devin Booker — 81.48%
+
+| Profile I | Profile II |
+|---|---|
+| ![Devin Booker Profile I](assets/radars/devin_booker_profile_i.png) | ![Devin Booker Profile II](assets/radars/devin_booker_profile_ii.png) |
+
+### #3 Stephen Curry — 80.23%
+
+| Profile I | Profile II |
+|---|---|
+| ![Stephen Curry Profile I](assets/radars/stephen_curry_profile_i.png) | ![Stephen Curry Profile II](assets/radars/stephen_curry_profile_ii.png) |
+
+### #4 Julius Randle — 79.07%
+
+| Profile I | Profile II |
+|---|---|
+| ![Julius Randle Profile I](assets/radars/julius_randle_profile_i.png) | ![Julius Randle Profile II](assets/radars/julius_randle_profile_ii.png) |
+
+### #5 Austin Reaves — 77.86%
+
+| Profile I | Profile II |
+|---|---|
+| ![Austin Reaves Profile I](assets/radars/austin_reaves_profile_i.png) | ![Austin Reaves Profile II](assets/radars/austin_reaves_profile_ii.png) |
 ## How the model works
 
 The project uses Kobe's full career as the reference rather than selecting a single season or a "prime" window.
