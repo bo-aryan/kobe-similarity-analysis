@@ -160,15 +160,3 @@ kobe-similarity-analysis/
 The analysis was built incrementally and documented in daily logs.
 
 The repository contains the raw/processed data, analysis notebook, methodology documentation, similarity outputs, and visualization assets needed to follow the workflow from data collection to final ranking.
-
-## Project status
-
-- [x] Research question
-- [x] Data pipeline
-- [x] Kobe reference profile
-- [x] 70-player candidate pool
-- [x] 10-category similarity model
-- [x] Validation
-- [x] Final ranking
-- [x] Visualizations
-- [ ] Final README cleanup
