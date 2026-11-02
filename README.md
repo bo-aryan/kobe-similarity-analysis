@@ -15,13 +15,9 @@ The model compares 70 players across 10 categories and produces a single similar
 
 Under the validated Day 7 model, Jaylen Brown ranks #1.
 
-
-
 The result is not meant to say that Brown is "the next Kobe." It means that, within this model and its selected metrics, his profile is the closest match among the 70-player candidate pool.
 
 ## Top 10
-
-
 
 | Rank | Player           | Similarity |
 | ---: | ---------------- | ---------: |
@@ -40,8 +36,8 @@ The result is not meant to say that Brown is "the next Kobe." It means that, wit
 
 Each of the top 5 candidates gets two five-axis radar charts, covering all 10 model categories.
 
-- Profile I: Stature · Usage & Creation · Shooting Tendencies · Portability · Passing
-- Profile II: Defense · Athleticism · Dominance · Shooting Ability · Play Style
+- Profile I: Stature(STA) · Usage & Creation(CRE) · Shooting Tendencies(TEN) · Portability(POR) · Passing(PAS)
+- Profile II: Defense(DEF) · Athleticism(ATH) · Dominance(DOM) · Shooting Ability(SHT) · Play Style(STY)
 
 The green polygon shows the player's similarity to Kobe in each category. The gold dashed boundary represents Kobe's reference value of 100.
 
